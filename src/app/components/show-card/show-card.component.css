@@ -9,6 +9,6 @@ img {
 }
 
 .selected{
-    background-color: navy;
+    background-color: rgb(10, 241, 226);
     color: whitesmoke;
 }

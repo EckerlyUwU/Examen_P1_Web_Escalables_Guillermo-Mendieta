@@ -3,19 +3,19 @@
 
   <form [formGroup]="form" (ngSubmit)="createElement()" class="row g-3">
     <div class="col-auto d-flex">
-      <input type="text" formControlName="name" class="form-control" placeholder="Nombre">
+      <input type="text" formControlName="name" class="form-control" placeholder="Titulo de la Serie">
       
       <input type="text" formControlName="description" class="form-control" placeholder="Descripción">
 
-      <input type="text" formControlName="image" class="form-control" placeholder="URL Imagen">
+      <input type="text" formControlName="image" class="form-control" placeholder="URL de la Imagen">
     </div>
 
     <div class="col-auto">
-      <button type="submit" class="btn btn-primary mb-3">Agregar</button>
+      <button type="submit" class="btn btn-primary mb-3">Agregar Nuevo</button>
     </div>
 
     <div *ngIf="!form.valid && isFormSubmitted" class="alert alert-danger" role="alert">
-      Datos incompletos
+      Los Datos estan incompletos
     </div>
 
   </form>
@@ -25,3 +25,28 @@
   </div>
 
 </div>
+
+  <!--Formulario por plantilla-->
+  <!-- <form #form="ngForm" (ngSubmit)="createElement(form)" class="row g-2">
+    <h3>Agregar nueva Card</h3>
+    <div class="mb-3">
+      <label class="form-label">Titulo</label>
+      <input type="text" name="name" required="" class="form-control" ngModel>
+    </div>
+
+    <div class="mb-3">
+      <label class="form-label">Descripcion</label>
+      <input type="text" name="description" required="" class="form-control" ngModel>
+    </div>
+
+    <div class="mb-3">
+      <label class="form-label">URL de la imagen</label>
+      <input type="text" name="image" required="" class="form-control" ngModel>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Agregar</button>
+    
+    <div *ngIf="form.submitted && !form.valid" class="alert alert-danger" role="alert">
+      Datos incompletos
+    </div>
+  </form> -->
