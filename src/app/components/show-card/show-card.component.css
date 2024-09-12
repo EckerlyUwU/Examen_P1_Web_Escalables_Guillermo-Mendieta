@@ -9,6 +9,6 @@ img {
 }
 
 .selected{
-    background-color: rgb(10, 241, 226);
-    color: whitesmoke;
+    background-color: rgb(241, 125, 10);
+    color: rgb(236, 248, 131);
 }

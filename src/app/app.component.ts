@@ -170,6 +170,15 @@ export class AppComponent {
         "description": "Las vidas de cuatro científicos y sus interacciones sociales, especialmente con su vecina Penny.",
         "genre": "Comedia",
         "likes": []
+    },
+    {
+        "name": "Sonic Prime",
+        "year": 2022,
+        "episodes": 23,
+        "image": "https://www.lavanguardia.com/peliculas-series/images/serie/poster/2022/12/w1280/oQwgdjp4vrxu9a9EDheip1E5Wsx.jpg",
+        "description": "Durante una batalla con el Dr. Eggman, Sonic rompe el Paradox Prism, un artefacto cristalino con poderes que alteran la realidad, que destruye el universo y crea el «Shatterverse».",
+        "genre": "Accion-Aventura",
+        "likes": []
     }
     ];
 
